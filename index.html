@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boston Wyatt | Portfolio</title>
+  <meta name="description" content="Semester portfolio featuring SleepOutside team project and final calorie counter project." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1>Boston Wyatt</h1>
+      <p class="subtitle">Semester Portfolio • SleepOutside + Final Project</p>
+
+      <div class="quick-links">
+        <a class="btn" href="#projects">Projects</a>
+        <a class="btn btn-outline" href="#submit">Submission</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <p class="muted">
+        This portfolio includes the main work completed during the semester: the SleepOutside team project and my final project.
+      </p>
+
+      <div class="grid">
+        <!-- SleepOutside -->
+        <article class="card">
+          <h3>SleepOutside (Team Project)</h3>
+          <p class="muted">
+            Team-built website project showing collaboration, planning, and JavaScript-based functionality.
+          </p>
+
+          <div class="links">
+            <a href="https://github.com/sierra-evans/WDD330-Team" target="_blank" rel="noreferrer">
+              Source Code (GitHub)
+            </a>
+            <a href="https://trello.com/b/FwGBYUMI/wdd330" target="_blank" rel="noreferrer">
+              Team Trello Board
+            </a>
+          </div>
+
+          <ul class="bullets">
+            <li>Focus: collaboration, clean organization, and responsive design</li>
+            <li>Tools: HTML, CSS, JavaScript</li>
+            <li>Project management: Trello</li>
+          </ul>
+
+          <p class="note">
+            Note: If your instructor requires a deployed link, add it here when available.
+          </p>
+        </article>
+
+        <!-- Final Project -->
+        <article class="card">
+          <h3>Final Project: Calorie Counter</h3>
+          <p class="muted">
+            A calorie counter web app that calculates remaining daily calories and tracks intake.
+          </p>
+
+          <div class="links">
+            <a href="https://buttermyloaf23.github.io/calorie-counter/" target="_blank" rel="noreferrer">
+              Live Site
+            </a>
+            <a href="https://github.com/ButterMyLoaf23/calorie-counter" target="_blank" rel="noreferrer">
+              Source Code (GitHub)
+            </a>
+          </div>
+
+          <ul class="bullets">
+            <li>Focus: user interaction, calculations, and UI updates</li>
+            <li>Tech: HTML, CSS, JavaScript</li>
+            <li>Hosted with GitHub Pages</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="submit" class="section">
+      <h2>Submission (Copy/Paste)</h2>
+      <p class="muted">Paste this into your course submission box. Replace the Portfolio Website link after publishing.</p>
+
+      <div class="codeblock" role="region" aria-label="Submission text">
+        <pre><code>Portfolio Website:
+REPLACE_WITH_YOUR_PORTFOLIO_LIVE_LINK
+
+SleepOutside Source Code:
+https://github.com/sierra-evans/WDD330-Team
+
+SleepOutside Trello Board:
+https://trello.com/b/FwGBYUMI/wdd330
+
+Final Project Live Site:
+https://buttermyloaf23.github.io/calorie-counter/
+
+Final Project Source Code:
+https://github.com/ButterMyLoaf23/calorie-counter</code></pre>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="muted">© <span id="year"></span> Boston Wyatt</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
